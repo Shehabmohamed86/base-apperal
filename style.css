@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+
+.text-content {
+  margin-left: 150px;
+  margin-top: 60px;
+  margin-right: 250px;
+}
+
+.text-content .bigger {
+  margin-top: 150px;
+  font-size:50px ;
+  letter-spacing: 12px;
+}
+
+.text-content .bigger span {
+  color:  hsl(0, 36%, 70%);
+}
+
+
+.text-content p {
+  margin-top: 40px;
+  color: hsl(0, 36%, 70%) ;
+}
+
+
+.text-content .inputs {
+  margin-top: 40px;
+}
+
+
+.text-content .inputs{
+  position: relative;
+}
+
+
+.text-content input[type=email]{
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 25px;
+  border : solid 2px  hsl(0, 36%, 70%);
+}
+
+ ::placeholder {
+  color:hsl(0, 36%, 70%); ;
+}
+
+
+.text-content input[type=submit]{
+  padding: 15px 20px;
+  border-radius: 25px;
+  position: absolute;
+  border : solid 2px  hsl(0, 36%, 70%);
+  right: -20px;
+  cursor: pointer;
+  background-color:hsl(0, 36%, 70%) ;
+  color: white;
+}
+
+
+.text-content .error {
+  position: absolute;
+  right: 80px;
+  top: 10px;
+  display: none;
+  opacity: 0;
+}
+
+
+
+
+
+.text-content .message {
+  margin-top: 10px;
+  margin-left:20px ;
+  color: hsl(0, 93%, 68%);
+
+}
+
+.text-content .message{
+  display: none;
+  opacity: 0;
+}
+
+
+
+
+
+.text-content .active-error {
+  display: block;
+  opacity: 1;
+}
+
+.active-border {
+ border:solid 2px  hsl(0, 36%, 70%) ;
+}
+
+
+.text-content .active-message {
+  display: block;
+  opacity: 1;
+}
+
+
+
+
+
+
